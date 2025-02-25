@@ -76,7 +76,6 @@ def main():
     graph = {start_url: misc.Page(start_url)}
     
     with misc.DelayedKeyboardInterrupt() as blah:
-        # Our main loop
         while len(queue) > 0 and counters.graphVisited < MAX_PAGE_VISITS and not blah.get_outta_here:
             process_next_page(queue, graph, counters)
         
