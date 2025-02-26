@@ -5,6 +5,8 @@ Combines git add and git commit:
 
 Push to remote repo:
     git push -u origin main
+    or just 
+    git push
     
 Setting up my git to have my token for login to repo: run these 2 commands (replace <blah_blah> with relevant info):
     git config --global credential.helper store
