@@ -1,9 +1,11 @@
 reminders to self:
 
-git commit -am 'message' 
-    Combines git add and git commit
+Combines git add and git commit:
+    git commit -am 'message' 
 
-git push -u origin main
-    push to remote repo
-
-blah blah // adding some text here to test pushing from another computer
+Push to remote repo:
+    git push -u origin main
+    
+Setting up my git to have my token for login to repo: run these 2 commands (replace <blah_blah> with relevant info):
+    git config --global credential.helper store
+    git config --global url."https://<your_github_username>:<your_token>@github.com/".insteadOf "https://github.com/"
