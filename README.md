@@ -5,3 +5,5 @@ git commit -am 'message'
 
 git push -u origin main
     push to remote repo
+
+blah blah // adding some text here to test pushing from another computer
